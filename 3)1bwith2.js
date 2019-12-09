@@ -29,6 +29,6 @@ function factorial(n) {
 factorial_memoized = memoize(factorial)
 
 // Use the momoized function.
-// console.log(factorial_memoized(5))
-// console.log(factorial_memoized(4))
-// console.log(factorial_memoized(3))
+// console.log(factorial_memoized(50))
+// console.log(factorial_memoized(400))
+// console.log(factorial_memoized(30))

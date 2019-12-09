@@ -23,3 +23,8 @@ var factorial = (function() {
   }
   return f;
 })();
+
+// Examples.
+// console.log(factorial(80));
+// console.log(factorial(90));
+// console.log(factorial(100));

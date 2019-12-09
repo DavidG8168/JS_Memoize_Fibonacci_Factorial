@@ -23,3 +23,8 @@ var fibonacci = (function() {
   }
   return f;
 })();
+
+// Some examples.
+// console.log(fibonacci(80));
+// console.log(fibonacci(400));
+// console.log(fibonacci(1000));
