@@ -1,3 +1,6 @@
+// To run this function just call it with a number as a parameter. Examples below.
+// Either remove the comments from the examples and run this file directly or
+// INSPECT the html file and run the function from the console.
 // Caclulates fibonacci number using memoization.
 var fibonacci = (function() {
   // Create the cache.

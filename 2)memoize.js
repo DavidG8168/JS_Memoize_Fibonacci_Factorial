@@ -1,5 +1,7 @@
 // High order function that accepts another function and memoizes it.
 // The accepted function has a single parameter.
+// To use this function, you're gonna need to create another function and sent it into it.
+// INSPECT the html file and run the function from the console.
 function memoize(f) {
   // Create the cache.
   const cache = {};

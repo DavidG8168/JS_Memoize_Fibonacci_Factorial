@@ -1,3 +1,4 @@
+// To run this remove the comments from the examples and run this file.
 // High order function that accepts another function and memoizes it.
 // The accepted function has a single parameter.
 function memoize(f) {
@@ -28,7 +29,10 @@ function factorial(n) {
 // Get the memoized function.
 factorial_memoized = memoize(factorial)
 
-// Use the momoized function.
+// Use the memoized function and compare to original.
 // console.log(factorial_memoized(50))
+// console.log(factorial(50))
 // console.log(factorial_memoized(400))
+// console.log(factorial(400))
 // console.log(factorial_memoized(30))
+// console.log(factorial(30))
